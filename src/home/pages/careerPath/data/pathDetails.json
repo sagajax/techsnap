@@ -1,0 +1,195 @@
+[
+  {
+    "id": "Frontend Developer",
+    "title": "Become Frontend Developer",
+    "description": "In this track, you’ll discover everything you need to know to become a frontend developer by learning HTML, CSS, JavaScript, React, and Node.js from scratch. You'll learn how to create responsive web designs, build dynamic applications, and work with backend APIs. These foundational skills will allow you to create modern web applications and advance your career as a frontend developer.",
+    "totalHours": 120,
+    "totalVideos": 56,
+    "totalExercises": 155,
+    "salaryRange": "$50,000 - $85,000",
+    "journey": [
+      {
+        "img": "https://img.freepik.com/free-vector/man-travel-near-lake-mountain-illustration_107791-20294.jpg?w=826&t=st=1709445768~exp=1709446368~hmac=7adb65188bcb8b3eb300d74b0150e763810b30e5f510260b63baea591c9a4331",
+        "lessons": 5,
+        "details": "HTML",
+        "practices": 25,
+        "title": "Embark on a Coding Adventure with HTML",
+        "description": "HTML is the basic and must-have skill-set for every web developer. It forms the backbone of every webpage and is extended by other technologies. Learn to structure your content and create semantic, accessible web pages."
+      },
+      {
+        "img": "https://img.freepik.com/free-vector/river-night-forest-mountain-nature-vector-cartoon-landscape-green-grass-tree-moon-light-scene-beautiful-flowing-stream-near-meadow-empty-woods-panoramic-with-flying-glowworms-fireflies_107791-21443.jpg?t=st=1709460180~exp=1709463780~hmac=8e9f32e011c6beebbc10a65c0f86caa51efa556f45faaaf257850d636a6c1a5b&w=900",
+        "lessons": 8,
+        "practices": 30,
+        "details": "CSS",
+        "title": "Style Your Success with CSS",
+        "description": "CSS is essential for designing visually appealing web pages. Master responsive designs, animations, and layouts to create professional-grade web applications."
+      },
+      {
+        "img": "https://img.freepik.com/free-vector/night-metropolis-empty-four-lane-illuminated-with-street-lights-speed-highway-town-freeway-with-overpass-bridge-going-skyscrapers-buildings-horizon-cartoon-vector-illustration_1441-3388.jpg",
+        "lessons": 15,
+        "practices": 40,
+        "details": "JavaScript",
+        "title": "Bring Your Ideas to Life with JavaScript",
+        "description": "JavaScript adds interactivity to your websites. Learn how to manipulate the DOM, handle events, work with APIs, and build dynamic web applications."
+      },
+      {
+        "img": "https://img.freepik.com/free-vector/flat-design-adventure-background_23-2149059266.jpg?t=st=1709461684~exp=1709465284~hmac=d1ec866b59b0381d7edd56950b43390a5e69ba13d3e3293c4f71fbbef2f83083&w=740",
+        "lessons": 10,
+        "practices": 20,
+        "details": "React",
+        "title": "Build Interactive Apps with React",
+        "description": "React is a powerful library for building user interfaces. Learn how to create reusable components, manage state with hooks, and build dynamic single-page applications."
+      },
+      {
+        "img": "https://img.freepik.com/free-vector/future-metropolis-seafront-with-illuminating-neon-colors-lights-futuristic-skyscrapers_33099-1489.jpg?t=st=1709461874~exp=1709465474~hmac=4d386a39a52560335a762337a4878b5a51e932526ccd91b46d50d99cd6d7cbee&w=740",
+        "lessons": 7,
+        "practices": 15,
+        "details": "APIs",
+        "title": "Integrate Backend APIs with Node.js",
+        "description": "Node.js enables you to build the backend of your applications. Learn how to set up a server, handle HTTP requests, and connect your frontend with backend APIs."
+      },
+      {
+        "img": "https://img.freepik.com/free-vector/waterfall-forest-landscape-with-river-rocks-mountains-sunset-sky-nature-cartoon_107791-21318.jpg",
+        "lessons": 6,
+        "practices": 10,
+        "details": "MongoDB",
+        "title": "Store and Retrieve Data with MongoDB",
+        "description": "MongoDB is a NoSQL database widely used in modern web applications. Learn how to store, query, and manage data effectively in your projects."
+      },
+      {
+        "img": "https://img.freepik.com/free-vector/lake-scene-with-trees-mountains-flat-design_1308-84797.jpg",
+        "lessons": 5,
+        "practices": 15,
+        "details": "Deployment",
+        "title": "Optimize and Deploy Your Frontend Projects",
+        "description": "Learn how to optimize your code for performance, manage assets, and deploy your applications to production using platforms like Vercel or Netlify."
+      }
+    ]
+  },
+  {
+    "id": "Backend Developer",
+    "title": "Become Backend Developer",
+    "description": "Master the art of backend development with technologies like Node.js, Express.js, Python, and databases like PostgreSQL and MongoDB. Learn to create scalable APIs, handle authentication, and manage data storage efficiently.",
+    "totalHours": 90,
+    "totalVideos": 41,
+    "totalExercises": 120,
+    "salaryRange": "$55,000 - $95,000",
+    "journey": [
+      {
+        "img": "https://img.freepik.com/free-vector/forest-path-scene-landscape_1308-86338.jpg",
+        "lessons": 8,
+        "practices": 30,
+        "details": "APIs",
+        "title": "Build APIs with Node.js and Express.js",
+        "description": "Learn how to set up robust servers, handle requests, and create RESTful APIs using Node.js and Express.js."
+      },
+      {
+        "img": "https://img.freepik.com/free-vector/mountain-landscape-sunset-flat-style_1308-84772.jpg",
+        "lessons": 6,
+        "practices": 20,
+        "details": "PostgreSQL",
+        "title": "Master Relational Databases with PostgreSQL",
+        "description": "Understand database design, write efficient SQL queries, and learn advanced concepts like indexing and transaction management."
+      },
+      {
+        "img": "https://img.freepik.com/free-vector/cartoon-style-canyon-landscape-scene_1308-84083.jpg",
+        "lessons": 5,
+        "practices": 15,
+        "details": "MongoDB",
+        "title": "Explore NoSQL Databases with MongoDB",
+        "description": "Learn the flexibility of NoSQL databases, schema design, and how to work with MongoDB for modern applications."
+      },
+      {
+        "img": "https://img.freepik.com/free-vector/landscape-forest-path-mountains-fir-trees_1308-86357.jpg",
+        "lessons": 7,
+        "practices": 25,
+        "details": "Security",
+        "title": "Secure Your Applications",
+        "description": "Implement authentication, authorization, and data encryption to protect your applications."
+      },
+      {
+        "img": "https://img.freepik.com/free-vector/flat-style-beach-scene-landscape_1308-86358.jpg",
+        "lessons": 5,
+        "practices": 10,
+        "details": "Deployment",
+        "title": "Deploy Scalable Backends",
+        "description": "Learn how to deploy your backend applications to cloud platforms like AWS, Azure, or Render for scalable production environments."
+      }
+    ]
+  },
+  {
+    "id": "Full-Stack Engineer",
+    "title": "Become Full-Stack Developer",
+    "description": "Combine frontend and backend development skills to become a full-stack developer. Learn technologies like HTML, CSS, JavaScript, React, Node.js, Express.js, and databases like PostgreSQL and MongoDB. Master the art of creating full-stack web applications and deploying them to production.",
+    "totalHours": 210,
+    "totalVideos": 97,
+    "totalExercises": 275,
+    "salaryRange": "$60,000 - $120,000",
+    "journey": [
+      {
+        "img": "https://img.freepik.com/free-vector/sunset-landscape-with-fields-flat-design_1308-88550.jpg",
+        "lessons": 5,
+        "practices": 25,
+        "details": "HTML",
+        "title": "Embark on a Coding Adventure with HTML",
+        "description": "HTML is the basic and must-have skill-set for every web developer. It forms the backbone of every webpage and is extended by other technologies. Learn to structure your content and create semantic, accessible web pages."
+      },
+      {
+        "img": "https://img.freepik.com/free-vector/beautiful-night-landscape-with-full-moon-shining-sky_107791-21801.jpg",
+        "lessons": 8,
+        "practices": 30,
+        "details": "CSS",
+        "title": "Style Your Success with CSS",
+        "description": "CSS is essential for designing visually appealing web pages. Master responsive designs, animations, and layouts to create professional-grade web applications."
+      },
+      {
+        "img": "https://img.freepik.com/free-vector/country-road-among-green-hills-mountains_1308-85295.jpg",
+        "lessons": 15,
+        "practices": 40,
+        "details": "JavaScript",
+        "title": "Bring Your Ideas to Life with JavaScript",
+        "description": "JavaScript adds interactivity to your websites. Learn how to manipulate the DOM, handle events, work with APIs, and build dynamic web applications."
+      },
+      {
+        "img": "https://img.freepik.com/free-vector/wooden-pier-tropical-beach_1308-87735.jpg",
+        "lessons": 10,
+        "practices": 20,
+        "details": "React",
+        "title": "Build Interactive Apps with React",
+        "description": "React is a powerful library for building user interfaces. Learn how to create reusable components, manage state with hooks, and build dynamic single-page applications."
+      },
+      {
+        "img": "https://img.freepik.com/free-vector/panorama-lake-forest-mountains_1308-86405.jpg",
+        "lessons": 7,
+        "practices": 15,
+        "details": "Node.js",
+        "title": "Integrate Backend APIs with Node.js",
+        "description": "Node.js enables you to build the backend of your applications. Learn how to set up a server, handle HTTP requests, and connect your frontend with backend APIs."
+      },
+      {
+        "img": "https://img.freepik.com/free-vector/landscape-river-bank-surrounded-by-trees_1308-89480.jpg",
+        "lessons": 8,
+        "practices": 30,
+        "details": "Express.js",
+        "title": "Build APIs with Node.js and Express.js",
+        "description": "Learn how to set up robust servers, handle requests, and create RESTful APIs using Node.js and Express.js."
+      },
+      {
+        "img": "https://img.freepik.com/free-vector/tropical-beach-scene-with-huts_1308-84691.jpg",
+        "lessons": 6,
+        "practices": 20,
+        "details": "PostgreSQL",
+        "title": "Master Relational Databases with PostgreSQL",
+        "description": "Understand database design, write efficient SQL queries, and learn advanced concepts like indexing and transaction management."
+      },
+      {
+        "img": "https://img.freepik.com/free-vector/forest-river-scene_1308-89195.jpg",
+        "lessons": 5,
+        "practices": 15,
+        "details": "MongoDB",
+        "title": "Explore NoSQL Databases with MongoDB",
+        "description": "Learn the flexibility of NoSQL databases, schema design, and how to work with MongoDB for modern applications."
+      }
+    ]
+  }
+]

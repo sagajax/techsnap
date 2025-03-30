@@ -1,0 +1,347 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* FullCalendar Base Styles */
+.fc-time-grid .fc-slats td {
+  height: 60px;
+}
+
+.fc .fc-timegrid-slot-label {
+  height: 50px;
+}
+
+.fc-event {
+  overflow: hidden;
+}
+
+.fc-event .fc-event-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.fc-event.custom-event {
+  background-color: #4c6ef5;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.fc-event.custom-event .fc-event-title {
+  font-weight: bold;
+}
+
+.fc-prev-button,
+.fc-next-button {
+  background-color: transparent !important;
+  color: rgb(121, 121, 121) !important;
+  border: none !important;
+  border-radius: 0.5rem !important;
+  padding: 0.5rem 1rem !important;
+  transition: background-color 0.3s ease !important;
+}
+
+.fc-prev-button:hover,
+.fc-next-button:hover {
+  background-color: #5951cd9c !important;
+}
+
+.fc-toolbar-title {
+  font-size: 1.5rem !important;
+  font-weight: 600 !important;
+  color: #191f25 !important;
+}
+
+/* Override text colors for Month (dayGrid) View */
+.fc-daygrid-event,
+.fc-daygrid-event .fc-event-title {
+  color: #3c3e48 !important;
+}
+
+.fc-daygrid-day-number {
+  color: #3c3e48 !important;
+}
+
+.fc .fc-col-header-cell-cushion {
+  color: #3c3e48 !important;
+}
+
+/* Time grid slot label styles */
+.fc .fc-timegrid-slot-label-cushion {
+  color: #6b7280 !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+}
+
+.fc-scrollgrid {
+  border-color: #ffffff !important;
+}
+
+.fc-scrollgrid-section {
+  border-color: #d5dade !important;
+}
+
+.fc-timegrid-slots,
+.fc-timegrid-slot,
+.fc-scrollgrid-shrink,
+.fc-scrollgrid-section,
+.fc-col-header {
+  border-color: #e2e8f0 !important;
+}
+
+.fc-timegrid-event.fc-v-event {
+  width: 80% !important;
+  margin-left: 0 !important;
+  border-radius: 14px !important;
+  transition: width 0.3s ease-in-out !important;
+  background-color: #cdd1ea !important;
+}
+
+.fc-timegrid-event.fc-v-event.selected-event {
+  width: 50% !important;
+}
+
+.fc-timegrid-event-harness {
+  margin: 0 !important;
+  transition: width 0.3s ease-in-out !important;
+}
+
+.fc .fc-timegrid-slot {
+  height: 40px !important;
+}
+
+.fc-event-main {
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: #cdd1ea !important;
+}
+
+.fc-v-event {
+  background-color: #cdd1ea !important;
+  border: 0 !important;
+}
+
+.fc-timegrid-event-harness-inset {
+  box-shadow: -1px 0 0 0 #fff !important;
+}
+
+.fc-timegrid-col-events {
+  margin: 0 !important;
+  position: relative !important;
+  background-color: #cdd1ea !important;
+}
+
+.fc-event-overlay {
+  margin-left: 10% !important;
+  z-index: 2 !important;
+}
+
+.fc .fc-day-today {
+  background-color: transparent !important;
+}
+
+.fc .fc-daygrid-day-number {
+  font-weight: 400 !important;
+}
+
+.fc .fc-col-header-cell-cushion {
+  font-weight: 400 !important;
+  color: rgb(105, 105, 105) !important;
+  font-size: 15px !important;
+}
+
+.fc .fc-day-today .fc-col-header-cell {
+  background-color: transparent !important;
+}
+
+.fc .fc-day-today .fc-daygrid-day-number {
+  color: white !important;
+  background-color: #4c6ef5;
+  font-weight: 600 !important;
+  padding: 4px 8px !important;
+  border-radius: 50% !important;
+}
+
+.fc .fc-day-today .fc-col-header-cell {
+  background-color: transparent !important;
+}
+
+.fc .fc-day-today .fc-col-header-cell-cushion {
+  background-color: #5263f3 !important;
+  color: white !important;
+  font-weight: 600 !important;
+  padding: 4px 8px !important;
+  border-radius: 10px !important;
+}
+
+.dotted-border {
+  border-style: dotted !important;
+  border-width: 3px !important;
+  border-radius: 10px !important;
+  border-color: #02a63c !important;
+}
+
+.morning-reminder {
+  background-color: #f7f8fc !important;
+}
+
+.lunch-reminder {
+  border-width: 3px !important;
+  border-style: solid !important;
+  border-radius: 10px !important;
+  background-color: #ea9a95 !important;
+}
+
+.evening-reminder {
+  background-color: #f7f8fc !important;
+}
+
+/* General calendar event styles */
+.fc-event {
+  cursor: pointer;
+  margin: 2px 0;
+  padding: 1px;
+}
+
+.fc-event.selected-event {
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+
+/* Make sure borders are visible */
+.fc-event-main {
+  padding: 0;
+}
+
+/* Enhance visibility of event content */
+.fc-event-title {
+  font-weight: 600;
+}
+
+.fc-event-time {
+  font-size: 0.85em;
+  opacity: 0.9;
+}
+
+
+
+/* A container for your custom calendar */
+.custom-calendar {
+  /* Overall container styling - border removed */
+  background: white;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  color: #374151; /* Tailwind gray-700 */
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  width: auto !important;
+  height: auto !important;
+}
+
+/* Navigation (Month/Year + arrows) */
+.custom-calendar .react-calendar__navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  border: none;
+}
+
+.custom-calendar .react-calendar__navigation button {
+  background: none;
+  border: none;
+  color: #374151;
+  font-size: 14px;
+  padding: 0.5rem;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+.custom-calendar .react-calendar__navigation button:hover {
+  background-color: #f3f4f6;
+}
+
+.custom-calendar .react-calendar__navigation__label {
+  font-weight: 600;
+  color: #1d4ed8; /* A nice blue for the month/year label */
+}
+
+/* Hide the double arrows if you want only single-month nav */
+.custom-calendar .react-calendar__navigation__prev2-button,
+.custom-calendar .react-calendar__navigation__next2-button {
+  display: none;
+}
+
+/* Weekday headings */
+.custom-calendar .react-calendar__month-view__weekdays__weekday {
+  padding: 0.5rem 0;
+}
+
+/* Add spacing to the month container */
+.custom-calendar .react-calendar__month-view__days {
+  display: grid !important;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.5rem;
+}
+
+/* Day tiles with added margin for spacing */
+.custom-calendar .react-calendar__tile {
+  background: none;
+  border: none;
+  border-radius: 9999px; /* fully rounded (circle) */
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 0.25rem;
+  color: #374151;
+  font-size: 14px;
+  text-align: center;
+  line-height: 2.5rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+/* Hover effect */
+.custom-calendar .react-calendar__tile:enabled:hover {
+  background-color: #f3f4f6; /* Light hover */
+  color: #1d4ed8; /* Darker blue text */
+}
+
+/* Ultra-specific selectors for active (selected) day */
+.custom-calendar .react-calendar__tile--active,
+.custom-calendar .react-calendar__tile--active:enabled:hover,
+.custom-calendar .react-calendar__tile--active:enabled:focus,
+div .custom-calendar button.react-calendar__tile--active,
+.react-calendar button.react-calendar__tile.react-calendar__tile--active,
+.custom-calendar button.react-calendar__tile--active {
+  background-color: #5b6cf3 !important; /* Purple background */
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  border: 2px solid #4a57e3 !important; /* Adding border to make selection more visible */
+}
+
+/* Today's date highlight (lighter background, black text) */
+.custom-calendar .react-calendar__tile--now {
+  background-color: #c3d4eb !important; /* A grayish highlight */
+  color: #000000 !important;
+  font-weight: 600;
+}
+
+/* Custom active class - additional backup */
+.react-calendar__tile--custom-active {
+  background-color: #5b6cf3 !important;
+  color: white !important;
+}
+
+/* Disabled days remain visible but grayed out */
+.custom-calendar .react-calendar__tile--disabled {
+  color: #a1a1aa !important;
+  cursor: not-allowed !important;
+}
+
+/* Neighboring month days in lighter color (optional) */
+.custom-calendar .react-calendar__tile--neighboringMonth {
+  color: #9ca3af;
+}

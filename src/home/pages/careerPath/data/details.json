@@ -1,0 +1,213 @@
+[
+    {
+      "id": "HTML",
+      "title": "Embark on a Coding Adventure with HTML",
+      "description": "HTML is the basic and must-have skill-set for every web developer. It forms the backbone of every webpage and is extended by other technologies. Learn to structure your content and create semantic, accessible web pages.",
+      "units": [
+        {
+          "unitName": "Introduction to HTML",
+          "lessons": [
+          "What is HTML?",
+          "Setting Up Your Environment",
+          "Basic Structure of an HTML Document",
+          "HTML Tags Overview",
+          "Creating Your First Webpage",
+          "Common Mistakes in HTML",
+          "Best Practices for Writing HTML"
+        ]
+        },
+        {
+          "unitName": "HTML Elements",
+          "lessons": [
+            "Headings and Paragraphs",
+            "Working with Links",
+            "Adding Images",
+            "Lists: Ordered and Unordered"
+          ]
+        },
+        {
+          "unitName": "HTML Attributes",
+          "lessons": [
+            "Global Attributes",
+            "Event Attributes",
+            "Custom Data Attributes"
+          ]
+        },
+        {
+          "unitName": "Forms in HTML",
+          "lessons": [
+            "Creating Forms",
+            "Form Input Types",
+            "Form Validation"
+          ]
+        },
+        {
+          "unitName": "Semantic HTML",
+          "lessons": [
+            "Introduction to Semantic HTML",
+            "Using Section, Article, and Aside Tags",
+            "HTML5 Semantic Elements"
+          ]
+        },
+        {
+          "unitName": "Advanced HTML",
+          "lessons": [
+            "Audio and Video Elements",
+            "Embedding with Iframes",
+            "HTML5 Drag and Drop API"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CSS",
+      "title": "Style Your Success with CSS",
+      "description": "CSS is essential for designing visually appealing web pages. Master responsive designs, animations, and layouts to create professional-grade web applications.",
+      "units": [
+        {
+          "unitName": "Getting Started with CSS",
+          "lessons": [
+            "What is CSS?",
+            "CSS Syntax and Selectors",
+            "Applying Styles to HTML"
+          ]
+        },
+        {
+          "unitName": "CSS Properties",
+          "lessons": [
+            "Color and Background",
+            "Borders and Padding",
+            "Text Styling"
+          ]
+        },
+        {
+          "unitName": "CSS Layouts",
+          "lessons": [
+            "Box Model Explained",
+            "Working with Flexbox",
+            "Grid Layout Basics",
+            "Positioning: Static, Relative, Absolute, and Fixed"
+          ]
+        },
+        {
+          "unitName": "Responsive Design",
+          "lessons": [
+            "Media Queries",
+            "Fluid Layouts",
+            "CSS Frameworks (e.g., Tailwind CSS)"
+          ]
+        },
+        {
+          "unitName": "CSS Animations",
+          "lessons": [
+            "CSS Transitions",
+            "Keyframe Animations",
+            "Transformations (Scale, Rotate, Skew)"
+          ]
+        },
+        {
+          "unitName": "Advanced CSS",
+          "lessons": [
+            "CSS Variables and Custom Properties",
+            "Sass Preprocessor",
+            "CSS for Accessibility"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "JavaScript",
+      "title": "Unlock the Power of the Web with JavaScript",
+      "description": "JavaScript brings interactivity and functionality to websites. Learn modern JavaScript features and best practices to develop dynamic web applications.",
+      "units": [
+        {
+          "unitName": "Introduction to JavaScript",
+          "lessons": [
+            "What is JavaScript?",
+            "Variables and Data Types",
+            "Basic Syntax and Operators"
+          ]
+        },
+        {
+          "unitName": "JavaScript Functions",
+          "lessons": [
+            "Defining and Invoking Functions",
+            "Arrow Functions",
+            "Higher-Order Functions"
+          ]
+        },
+        {
+          "unitName": "DOM Manipulation",
+          "lessons": [
+            "Understanding the DOM",
+            "Selecting and Modifying Elements",
+            "Event Handling"
+          ]
+        },
+        {
+          "unitName": "JavaScript ES6 Features",
+          "lessons": [
+            "Let and Const",
+            "Template Literals",
+            "Destructuring and Spread Syntax"
+          ]
+        },
+        {
+          "unitName": "Asynchronous JavaScript",
+          "lessons": [
+            "Promises and Async/Await",
+            "Using Fetch API",
+            "Error Handling"
+          ]
+        },
+        {
+          "unitName": "Advanced JavaScript",
+          "lessons": [
+            "Closures and Scope",
+            "Prototypes and Inheritance",
+            "JavaScript Design Patterns"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Version Control with Git",
+      "title": "Master Collaboration with Git",
+      "description": "Learn version control and collaboration using Git and GitHub, essential skills for developers working in teams.",
+      "units": [
+        {
+          "unitName": "Getting Started with Git",
+          "lessons": [
+            "What is Git?",
+            "Installing and Configuring Git",
+            "Basic Git Commands"
+          ]
+        },
+        {
+          "unitName": "Working with Repositories",
+          "lessons": [
+            "Cloning a Repository",
+            "Committing Changes",
+            "Branching and Merging"
+          ]
+        },
+        {
+          "unitName": "Git Collaboration",
+          "lessons": [
+            "Using GitHub",
+            "Pull Requests",
+            "Resolving Merge Conflicts"
+          ]
+        },
+        {
+          "unitName": "Advanced Git",
+          "lessons": [
+            "Stashing and Reverting",
+            "Using Tags",
+            "Rebasing and Cherry Picking"
+          ]
+        }
+      ]
+    }
+  ]
+  

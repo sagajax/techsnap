@@ -1,0 +1,20 @@
+[
+      {
+        "name": "John Robert",
+        "title": "Instructor",
+        "imgSrc": "https://cdn.pixabay.com/photo/2021/04/05/12/39/man-6153298_1280.jpg",
+        "believers": "300"
+      },
+      {
+        "name": "John Robert",
+        "title": "Instructor", 
+        "imgSrc": "https://cdn.pixabay.com/photo/2021/04/05/12/39/man-6153298_1280.jpg",
+        "believers": "300"
+      },
+      {
+        "name": "John Robert",
+        "title": "Instructor",
+        "imgSrc": "https://cdn.pixabay.com/photo/2021/04/05/12/39/man-6153298_1280.jpg", 
+        "believers": "300"
+      }
+  ]

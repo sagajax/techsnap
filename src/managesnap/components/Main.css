@@ -1,0 +1,147 @@
+.fc .fc-toolbar {
+  background-color: #444791;
+  color: #ffffff;
+}
+
+.fc .fc-event {
+  background-color: #0078d4;
+  border: none;
+  color: white;
+  padding: 5px;
+}
+
+.fc .fc-day-today {
+  background-color: #e5e5e5;
+}
+
+@keyframes moveLine {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.dark {
+  background-color: black;
+}
+
+body {
+  padding: env(safe-area-inset-top) env(safe-area-inset-right)
+    env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
+.spin {
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.element {
+  transform: translateZ(0);
+}
+
+.resizable-divider {
+  width: 1px;
+  background-color: #d1d5db !important;
+  cursor: ew-resize;
+}
+
+.resizable-divider:hover {
+  background-color: #a1a1a1;
+}
+
+body.splash-screen .fade-out {
+  animation: fadeOut 1s ease-out forwards;
+}
+
+.custom-scroll::-webkit-scrollbar {
+  display: block;
+}
+
+.react-calendar__month-view__days__day--weekend {
+  color: black;
+}
+
+.react-calendar__tile--now {
+  background: none;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: transparent;
+}
+
+.react-calendar__tile--active {
+  background: #006edc;
+  color: white;
+}
+
+.selecting-none {
+  user-select: none;
+}
+
+.cursor-col-resize {
+  cursor: col-resize;
+}
+
+.transition-width {
+  transition: width 0.15s ease-out;
+}
+
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(155, 155, 155, 0.5) transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(155, 155, 155, 0.5);
+  border-radius: 20px;
+  border: transparent;
+}
+
+.msg-scrollbar::-webkit-scrollbar{
+  display: none;
+}
+
+.channel-scrollbar::-webkit-scrollbar{
+  display: none;
+}
+
+.pin-scrollbar::-webkit-scrollbar {
+  width: 8px; 
+  height: 8px; 
+}
+
+.pin-scrollbar::-webkit-scrollbar-thumb {
+  background: #b7c1ce;
+  border-radius: 4px; 
+}
+
+.pin-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #806c6b; 
+}
+
+.pin-scrollbar::-webkit-scrollbar-track {
+  background: transparent; 
+}
+
+.emoji-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+

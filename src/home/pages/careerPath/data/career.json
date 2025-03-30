@@ -1,0 +1,112 @@
+[
+    {
+      "id": 1,
+      "title": "Full-Stack Engineer",
+      "description": "A full-stack engineer can get a project done from start to finish, back-end to front-end.",
+      "company": "Techsnap",
+      "courses": 12,
+      "projects": 3,
+      "assessments": 3,
+      "requirements": ["JavaScript", "React", "Node.js", "SQL"],
+      "salaryRange": "$80,000 - $150,000"
+    },
+    {
+      "id": 2,
+      "title": "Frontend Developer",
+      "description": "A frontend developer focuses on creating the user interface and user experience of web applications.",
+      "company": "Webify",
+      "courses": 10,
+      "projects": 4,
+      "assessments": 2,
+      "requirements": ["HTML", "CSS", "JavaScript", "React"],
+      "salaryRange": "$70,000 - $130,000"
+    },
+    {
+      "id": 3,
+      "title": "Backend Developer",
+      "description": "A backend developer specializes in server-side development, databases, and APIs.",
+      "company": "CodeCraft",
+      "courses": 8,
+      "projects": 5,
+      "assessments": 3,
+      "requirements": ["Python", "Java", "SQL", "APIs"],
+      "salaryRange": "$75,000 - $140,000"
+    },
+    {
+      "id": 4,
+      "title": "Data Scientist",
+      "description": "A data scientist analyzes and interprets complex data to help companies make informed decisions.",
+      "company": "DataNexus",
+      "courses": 15,
+      "projects": 3,
+      "assessments": 4,
+      "requirements": ["Python", "R", "SQL", "Machine Learning"],
+      "salaryRange": "$90,000 - $160,000"
+    },
+    {
+      "id": 5,
+      "title": "DevOps Engineer",
+      "description": "A DevOps engineer bridges the gap between development and operations, automating processes and managing CI/CD.",
+      "company": "CloudOps",
+      "courses": 11,
+      "projects": 6,
+      "assessments": 3,
+      "requirements": ["Docker", "Kubernetes", "AWS", "Jenkins"],
+      "salaryRange": "$85,000 - $155,000"
+    },
+    {
+      "id": 6,
+      "title": "Cybersecurity Specialist",
+      "description": "A cybersecurity specialist works on securing systems and networks against cyber threats.",
+      "company": "SecureNet",
+      "courses": 9,
+      "projects": 2,
+      "assessments": 4,
+      "requirements": ["Network Security", "Ethical Hacking", "Security Tools"],
+      "salaryRange": "$80,000 - $150,000"
+    },
+    {
+      "id": 7,
+      "title": "AI/ML Engineer",
+      "description": "An AI/ML engineer develops intelligent systems and algorithms for machine learning and artificial intelligence.",
+      "company": "AI Horizons",
+      "courses": 14,
+      "projects": 5,
+      "assessments": 4,
+      "requirements": ["Python", "TensorFlow", "PyTorch", "Mathematics"],
+      "salaryRange": "$100,000 - $180,000"
+    },
+    {
+      "id": 8,
+      "title": "Cloud Architect",
+      "description": "A cloud architect designs and manages cloud-based infrastructure and services.",
+      "company": "SkyNet",
+      "courses": 13,
+      "projects": 4,
+      "assessments": 3,
+      "requirements": ["AWS", "Azure", "GCP", "Cloud Security"],
+      "salaryRange": "$95,000 - $175,000"
+    },
+    {
+      "id": 9,
+      "title": "UI/UX Designer",
+      "description": "A UI/UX designer creates visually appealing and user-friendly designs for web and mobile applications.",
+      "company": "Designly",
+      "courses": 10,
+      "projects": 3,
+      "assessments": 2,
+      "requirements": ["Figma", "Adobe XD", "UI Design", "User Research"],
+      "salaryRange": "$65,000 - $120,000"
+    },
+    {
+      "id": 10,
+      "title": "Blockchain Developer",
+      "description": "A blockchain developer builds decentralized applications and smart contracts on blockchain networks.",
+      "company": "Blockify",
+      "courses": 12,
+      "projects": 4,
+      "assessments": 3,
+      "requirements": ["Solidity", "Web3.js", "Smart Contracts", "Ethereum"],
+      "salaryRange": "$90,000 - $160,000"
+    }
+  ]
