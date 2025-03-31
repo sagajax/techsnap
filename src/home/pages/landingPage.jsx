@@ -4,11 +4,18 @@ import { Link } from "react-router-dom";
 import Tabs from "../pages/Tabs";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
+import Section2 from "./Section";
+import Home from "./Home";
+import Cursor from "./Cursor";
 
 function LandingPage() {
   return (
     <>
+    <div className='no-scrollbar overflow-x-clip relative rounded-b-[2.5em] bg-white'>
+
       <Navbar />
+      <Cursor />
+      <Home />
       <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
         <h1 className="text-5xl font-bold text-blue-600 mb-8">
           Welcome to TechSnap
@@ -37,7 +44,9 @@ function LandingPage() {
       </div>
       <BigCards />
       <Tabs  />
+      <Section2 />
       <Footer />
+    </div>
     </>
   );
 }

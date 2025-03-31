@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import techsnaplo from "../assets/hh.png";
 import tech from '../assets/techsnaplo.jpg';
 import { AiOutlineArrowDown } from "react-icons/ai";
+import { Link } from "react-router-dom"; 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isActiveDropdown, setIsActiveDropdown] = useState(null);
@@ -251,8 +252,12 @@ const Pricing= [
 
           {/* Login & Register Buttons */}
           <div className="hidden lg:flex w-[200px] space-x-6 pb-1 pr-6">
-            <button className="px-4 py-2 bg-gray-200 rounded-full">Login</button>
-            <button className="px-4 py-2 bg-[#ff69b4] text-white rounded-full ">Register</button>
+            <Link 
+            to="/signup"
+            className="px-4 py-2 bg-gray-200 rounded-full">Login</Link>
+            <Link
+            to="/signin"
+             className="px-4 py-2 bg-[#ff69b4] text-white rounded-full ">Register</Link>
           </div>
         </div>
       </div>

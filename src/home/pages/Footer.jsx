@@ -1,9 +1,9 @@
-import techsnaplogo from '../assets/techsnaplogo.png';
+import techsnaplogo from '../assets/techsnaplogo.png'
 
 export default function Footer() {
   
   return (
-    <footer className="bg-black w-[100vw] pt-30 -z-10   text-white py-13 px-4 md:px-8">
+    <footer className="bg-black w-[100vw] fixed pt-36 -z-10 bottom-0 top-4 text-white py-13 px-4 md:px-8">
       <div className="max-w-8xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-6  gap-8 space-y-10">
           <div className="col-span-1 row-span-2 ">
